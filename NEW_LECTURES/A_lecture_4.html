@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lecture 4: Lists, Links, and Images</title>
+</head>
+<body>
+	<h1>ESCUETA, KEITH ROGER C.</h1>
+	<p>Lecture 4: Lists, Links, and Images</p>
+
+	<section>
+		<article>
+			<h2>Ordered and Unordered Lists</h2>
+			<p><strong>&lt;ol&gt;:</strong> Ordered (numbered) list</p>
+			<p><strong>&lt;ul&gt;:</strong> Unordered (bulleted) list</p>
+			<p><strong>&lt;li&gt;:</strong> List item</p>
+			<p><strong>Example:</strong></p>
+			<ol type="A" start="5">
+				<li>Notebook</li>
+				<li>Ballpen</li>
+				<li>Yellow Paper</li>
+			</ol>
+			<ul style="list-style-type:square;">
+				<li>Coffee</li>
+				<li>Tea</li>
+			<ul>
+				<li>Black tea</li>
+				<li>Green tea</li>
+			</ul>
+				<li>Milk</li>
+			</ul>
+		</article>
+
+		<article>
+		<h2>Description Lists</h2>
+		<dl>
+			<dt>Notebook</dt>
+			<dd>- A small book with blank pages for notes</dd>
+			<dt>Ballpen</dt>
+			<dd>- A pen with a rotating metal ball</dd>
+		</dl>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<h2>HTML Links</h2>
+			<p><strong>Anchor tag:</strong> <code>&lt;a href="URL"&gt;link&lt;/a&gt;</code></p>
+			<p><strong>Absolute link:</strong> <code>&lt;a href="URL" target="_blank"&gt;link&lt;/a&gt;</code></p>
+			<p><strong>Relative link:</strong> <code>&lt;a href="Page1.html"&gt;Page1&lt;/a&gt;</code></p>
+			<p><strong>Internal link:</strong> <code>&lt;a href="#top"&gt;jump to top&lt;/a&gt;</code></p>
+		</article>
+
+		<article>
+			<h2>HTML Image Basics</h2>
+			<p><strong>&lt;img&gt;:</strong> Tag to insert images</p>
+			<p><strong>Example:</strong></p>
+			<img src="https://images.squarespace-cdn.com/content/v1/59b9ecdabebafb8293096530/1506927343134-BY6BAAVX3U55PNBKV7T4/IMG_3984.jpg" alt="Bear" style="width:50px;height:50px;">
+			<p><strong>Using Image as Link:</strong></p>
+			<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcapitolmuseum.ca.gov%2Fstate-symbols%2Fstate-animal-grizzly-bear%2F&psig=AOvVaw0A2dlWsF4lsrrjoRS0YbLq&ust=1748414561476000&source=images&cd=vfe&opi=89978449&ved=0CBcQjhxqFwoTCJiklvuFw40DFQAAAAAdAAAAABAT">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ6AAOqmi7PjEJEiYwvH0Z4ywr3sSNrqd5kw&s" alt="bear_close" style="width:42px;height:42px;border:0;">
+			</a>
+		</article>
+
+		<article>
+			<h2>Floating Images</h2>
+			<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ours_brun_parcanimalierpyrenees_1.jpg/640px-Ours_brun_parcanimalierpyrenees_1.jpg" alt="Bear1" style="float:right;width:42px;height:42px;">This image floats right.</p>
+			<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2010-kodiak-bear-1.jpg/1200px-2010-kodiak-bear-1.jpg" alt="Bear2" style="float:left;width:42px;height:42px;">This image floats left.</p>
+		</article>
+	</section>
+
+	<aside>
+		<h4>Image Format Overview</h4>
+		<ul>
+			<li><strong>GIF:</strong> Good for simple graphics, supports animation</li>
+			<li><strong>JPEG:</strong> Great for photos</li>
+			<li><strong>PNG:</strong> Supports transparency and lossless compression</li>
+			<li><strong>WebP:</strong> Modern format with high compression, transparency</li>
+		</ul>
+	</aside>
+</body>
+</html>
