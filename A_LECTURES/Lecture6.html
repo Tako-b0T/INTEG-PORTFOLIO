@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lecture 6: Forms and Multimedia</title>
+  <link rel="stylesheet" href="/CSS/styles.css" />
+</head>
+<body>
+  <header class="lecture-header">Lecture 6: Forms and Multimedia</header>
+  <div class="spacing2"></div>
+
+  <section>
+    <h2>1. Introduction to Web Forms</h2>
+    <ul class="left-spacing">
+      <li>Web forms allow users to input and submit data through a webpage.</li>
+      <li>Controls include: text inputs, radio buttons, checkboxes, select lists, text areas, and buttons.</li>
+      <li>Widgets include: sliders, spinners, calendars, and color pickers.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Basic Form Elements</h2>
+    <ul class="left-spacing">
+      <li><strong>&lt;form&gt;:</strong> Wraps all form elements; attributes include <code>action</code>, <code>method</code>, and <code>target</code>.</li>
+      <li><strong>&lt;input&gt;:</strong> Used for various input types such as text, password, radio, checkbox, etc.</li>
+      <li><strong>&lt;label&gt;:</strong> Associates text with form controls for accessibility and usability.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Form Submission</h2>
+    <ul class="left-spacing">
+      <li><strong>GET:</strong> Appends form data to the URL (suitable for short, non-sensitive data).</li>
+      <li><strong>POST:</strong> Sends data in the body of the request (better for large or sensitive data).</li>
+      <li><strong>Target:</strong> Defines where the response opens (e.g., <code>_blank</code> for a new tab).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Input Types and Attributes</h2>
+    <ul class="left-spacing">
+      <li>Text, Password, Radio, Checkbox, Submit, Reset, Button, Color</li>
+      <li>HTML5 types include: date, email, number, range, search, tel, time, url, week</li>
+      <li>Attributes include:
+        <ul>
+          <li><code>value</code> – default input value</li>
+          <li><code>readonly</code> – input cannot be edited</li>
+          <li><code>disabled</code> – input is unclickable</li>
+          <li><code>size</code> and <code>maxlength</code> – control text field width and limit</li>
+          <li>Others: <code>placeholder</code>, <code>required</code>, <code>pattern</code>, <code>autofocus</code>, etc.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Additional Form Elements</h2>
+    <ul class="left-spacing">
+      <li><strong>&lt;select&gt; and &lt;option&gt;:</strong> Create drop-down lists with optional <code>multiple</code> and <code>size</code>.</li>
+      <li><strong>&lt;textarea&gt;:</strong> Multi-line text input field with <code>rows</code> and <code>cols</code>.</li>
+      <li><strong>&lt;fieldset&gt; and &lt;legend&gt;:</strong> Group and label related fields in a form.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Form Design Tips</h2>
+    <ul class="left-spacing">
+      <li>Group related inputs logically using fieldsets.</li>
+      <li>Use labels and placeholder text to guide the user.</li>
+      <li>Optimize for both desktop and limited screen displays.</li>
+      <li>Ensure logical flow and user-friendly layout.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Introduction to Multimedia</h2>
+    <ul class="left-spacing">
+      <li>Multimedia includes: audio, video, animations, and interactive content.</li>
+      <li>Common formats: <code>.mp3</code>, <code>.mp4</code>, <code>.ogg</code>, <code>.webm</code>, <code>.avi</code></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. Embedding Audio</h2>
+    <ul class="left-spacing">
+      <li>Use the <code>&lt;audio&gt;</code> tag with <code>controls</code> and <code>&lt;source&gt;</code> for fallback options.</li>
+      <li>Example:
+        <pre><code>&lt;audio controls&gt;
+  &lt;source src="file.mp3" type="audio/mpeg"&gt;
+  Your browser does not support the audio element.
+&lt;/audio&gt;</code></pre>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Embedding Video</h2>
+    <ul class="left-spacing">
+      <li>Use the <code>&lt;video&gt;</code> tag with <code>controls</code>, <code>width</code>, and <code>height</code> attributes.</li>
+      <li>Include multiple <code>&lt;source&gt;</code> tags for broader compatibility.</li>
+      <li>Example:
+        <pre><code>&lt;video width="320" height="240" controls&gt;
+  &lt;source src="movie.mp4" type="video/mp4"&gt;
+  Your browser does not support the video tag.
+&lt;/video&gt;</code></pre>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. Plugins and Embed Elements</h2>
+    <ul class="left-spacing">
+      <li><strong>&lt;object&gt;:</strong> Embeds external content like PDFs, Flash, or other HTML.</li>
+      <li><strong>&lt;embed&gt;:</strong> Similar to <code>&lt;object&gt;</code>, used for legacy plugins and media.</li>
+      <li>Examples:
+        <pre><code>&lt;object width="400" height="200" data="file.swf"&gt;&lt;/object&gt;
+&lt;embed src="file.swf" width="400" height="200"&gt;</code></pre>
+      </li>
+    </ul>
+  </section>
+
+  <div class="spacing3"></div>
+  <div class="home-button">
+    <a href="Lecture.html">Back</a>
+  </div>
+
+  <footer>
+    <p>CIP 1101 Portfolio</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lecture 4: Lists, Links, and Images</title>
+  <link rel="stylesheet" href="/CSS/styles.css" />
+</head>
+<body>
+  <header class="lecture-header">Lecture 4: Lists, Links, and Images</header>
+  <div class="spacing2"></div>
+
+  <section>
+    <h2>1. HTML Lists</h2>
+    <ul class="left-spacing">
+      <li><strong>Ordered List (&lt;ol&gt;):</strong> Numbered lists ideal for instructions or hierarchical items.</li>
+      <li><strong>Unordered List (&lt;ul&gt;):</strong> Bulleted lists for unordered content.</li>
+      <li><strong>Description List (&lt;dl&gt;):</strong> Lists of terms with descriptions.</li>
+      <li><strong>Nested Lists:</strong> Lists within lists for categorized data.</li>
+      <li><strong>CSS Styling:</strong> Use <code>list-style-type</code> to change marker styles like upper-roman, square, none, etc.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. Links / Hyperlinks</h2>
+    <ul class="left-spacing">
+      <li><strong>&lt;a&gt; Tag:</strong> Used to create hyperlinks; <code>href</code> defines the target URL.</li>
+      <li><strong>Absolute URL:</strong> Links to external websites. (e.g., <code>http://example.com</code>)</li>
+      <li><strong>Relative URL:</strong> Links to local site pages. (e.g., <code>pages/about.html</code>)</li>
+      <li><strong>Anchor Links:</strong> Use <code>#id</code> to jump within the same page.</li>
+      <li><strong>Link Targets:</strong> Control link behavior with <code>target="_blank"</code>, <code>_self</code>, etc.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. HTML Links as Images</h2>
+    <ul class="left-spacing">
+      <li><strong>Clickable Images:</strong> Wrap <code>&lt;img&gt;</code> in <code>&lt;a&gt;</code> tags to make images links.</li>
+      <li><strong>Example:</strong> <code>&lt;a href="page.html"&gt;&lt;img src="img.jpg"&gt;&lt;/a&gt;</code></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Image Embedding</h2>
+    <ul class="left-spacing">
+      <li><strong>&lt;img&gt; Tag:</strong> Defines images. Use <code>src</code> for path and <code>alt</code> for alternative text.</li>
+      <li><strong>Size Control:</strong> Use <code>style</code> to set width and height.</li>
+      <li><strong>Floating Images:</strong> Use CSS <code>float: left/right;</code> for text wrapping.</li>
+      <li><strong>Folder Structure:</strong> Use folder names in <code>src</code> if images are stored in subfolders.</li>
+      <li><strong>External Images:</strong> Use full URL in <code>src</code> to embed from other websites.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Image Formats</h2>
+    <ul class="left-spacing">
+      <li><strong>GIF:</strong> Best for simple graphics and animations. Max 256 colors. Supports transparency and interlacing.</li>
+      <li><strong>JPEG:</strong> Best for photos. Supports thousands of colors. Uses lossy compression.</li>
+      <li><strong>PNG:</strong> Supports transparency, true-color. Good for lossless quality.</li>
+      <li><strong>WebP:</strong> Google’s format with lossy/lossless compression and transparency support. Highly efficient.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Image Maps</h2>
+    <ul class="left-spacing">
+      <li><strong>Image Map:</strong> Defines clickable areas (hot spots) within an image using <code>&lt;map&gt;</code> and <code>&lt;area&gt;</code>.</li>
+      <li><strong>Shapes:</strong> <code>rect</code>, <code>circle</code>, <code>poly</code>, and <code>default</code> are used to define clickable zones.</li>
+      <li><strong>Attributes:</strong> Use <code>coords</code>, <code>href</code>, <code>title</code>, and <code>alt</code> for functionality and accessibility.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Background Images</h2>
+    <ul class="left-spacing">
+      <li><strong>CSS Property:</strong> Use <code>background-image: url('filename.jpg')</code> in inline styles or stylesheets.</li>
+      <li><strong>Application:</strong> Can be applied to <code>&lt;body&gt;</code> or any other container.</li>
+    </ul>
+  </section>
+
+  <div class="spacing3"></div>
+  <div class="home-button">
+      <a href="Lecture.html">Back</a>
+  </div>
+
+  <footer>
+    <p>CIP 1101 Portfolio</p>
+  </footer>
+</body>
+</html>
