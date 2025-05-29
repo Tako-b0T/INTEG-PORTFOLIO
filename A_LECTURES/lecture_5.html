@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lecture 5: CSS3</title>
+</head>
+<body>
+	<h1>ESCUETA, KEITH ROGER C.</h1>
+	<p>Lecture 5: CSS3</p>
+
+	<section>
+		<article>
+			<h2>Introduction to CSS3</h2>
+			<ul>
+				<li>CSS separates content from presentation</li>
+				<li>W3C developed CSS1 (1996), CSS2 (1998), and modular CSS3</li>
+				<li>CSS3 is backward compatible with CSS2.1</li>
+				<li>Over 50 CSS3 modules provide modern styling capabilities</li>
+			</ul>
+		</article>
+
+		<article>
+			<h2>CSS Syntax and Selectors</h2>
+			<ul>
+				<li><strong>Selector:</strong> Targets HTML element</li>
+				<li><strong>Declaration:</strong> Property-value pair inside braces</li>
+				<li>Types of selectors: element, id (<code>#id</code>), class (<code>.class</code>), group</li>
+				<li>Comments: <code>/* comment */</code></li>
+			</ul>
+		</article>
+
+		<article>
+			<h2>Ways to Insert CSS</h2>
+			<ul>
+				<li><strong>External:</strong> Linked using <code>&lt;link&gt;</code> in <code>&lt;head&gt;</code></li>
+				<li><strong>Internal:</strong> CSS within <code>&lt;style&gt;</code> tag</li>
+				<li><strong>Inline:</strong> Style inside HTML element using <code>style</code> attribute</li>
+			</ul>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<h2>Cascading and Color Properties</h2>
+			<ul>
+				<li>Priority: Inline > Internal > External > User-defined > Browser default</li>
+				<li><strong>Color types:</strong> named, HEX, RGB, RGBA, HSL, HSLA</li>
+				<li><code>background-color</code>, <code>color</code>, <code>border-color</code></li>
+			</ul>
+		</article>
+
+		<article>
+			<h2>Backgrounds and Borders</h2>
+			<ul>
+				<li>Backgrounds: color, image, repeat, attachment, position</li>
+				<li>Shorthand: <code>background</code></li>
+				<li>Borders: style, width, color, radius (for rounded corners)</li>
+				<li>Shorthand: <code>border: 2px solid red;</code></li>
+			</ul>
+		</article>
+
+		<article>
+			<h2>Box Dimensions</h2>
+			<ul>
+				<li><code>width</code> and <code>height</code>: px, %, auto</li>
+				<li><code>max-width</code> limits element size</li>
+			</ul>
+		</article>
+	</section>
+
+	<aside>
+		<h4>CSS Rule Example</h4>
+		<ul>
+			<li><strong>Selector:</strong> <code>p</code></li>
+			<li><strong>Declaration block:</strong> <code>{ color: red; text-align: center; }</code></li>
+		</ul>
+	</aside>
+
+	<figure>
+		<figcaption>Example of a CSS rule block</figcaption>
+		<pre>
+		p {
+		color: red;
+		text-align: center;
+		}
+		</pre>
+	</figure>
+</body>
+</html>
